@@ -29,3 +29,4 @@ database.delete('key2');
 //Saving everything int the file at the end
 database.saveIntoFile();
 ```
+> index.js

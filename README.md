@@ -2,6 +2,13 @@
 
 A Node module that lets you store key-value pairs into a file. We can read, delete and create key-value pairs by custom functions provided.
 
+### Basic Setup
+1. Clone the repo 
+2. index.js already has a template where all the function are used
+3. run the code using - ######node index.js
+4. A new file will occur in the current folder unless a custom path is provided.
+5. Customize index.js to experiment with the module
+
 ```javascript
 var store = require('./datastore');
 var storeClass=store.customStore();

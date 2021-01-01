@@ -5,10 +5,10 @@ A Node module that lets you store key-value pairs into a file. We can read, dele
 ### Basic Setup
 1. Clone the repo 
 2. index.js already has a template where all the function are used
-3. run the code using - ###### node index.js
+3. run the code using -node index.js
 4. A new file will occur in the current folder unless a custom path is provided.
 5. Customize index.js to experiment with the module
-6. ###### saveIntoFile(); will be used at the end to flush all the data into the file
+6. ##### saveIntoFile(); will be used at the end to flush all the data into the file
 
 ```javascript
 var store = require('./datastore');
